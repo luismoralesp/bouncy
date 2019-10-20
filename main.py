@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from bouncy import Bouncy
+import bouncy
 import time
 
 """
@@ -16,7 +16,6 @@ current_time = lambda: int(round(time.time() * 1000))
 if __name__ == "__main__":
 
     percent = 99
-    bouncy = Bouncy()
     first_time = current_time()
     
     least_number = bouncy.calculate_by_percent(percent)

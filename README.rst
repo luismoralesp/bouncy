@@ -13,6 +13,7 @@ Install
 Clone repository::
 
     $ git clone https://github.com/luismoralesp/bouncy.git
+    $ pip install -r requirements.txt
 
 
 

@@ -1,2 +1,2 @@
 #!/usr/bin/env python
-from .bouncy import Bouncy
+from .bouncy import calculate_by_percent
