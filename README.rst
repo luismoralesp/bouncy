@@ -23,7 +23,7 @@ Run
 ---
 
 
-Run commands::
+Run command::
 
     $ python main.py
 
