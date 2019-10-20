@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-from numba import jitclass 
-import numpy as np
-import numba
 from numba import jit
 
 @jit(nopython=True, nogil=True)
