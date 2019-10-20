@@ -19,11 +19,11 @@ class Bouncy:
         dw = False
     
         last = number % 10
-        number /= 10
+        number = int(number/ 10)
     
         while number > 0:
             next = number % 10
-            number /= 10
+            number = int(number / 10)
             if next < last:
                 up = True
             elif next > last:
@@ -45,7 +45,8 @@ class Bouncy:
             number+= 1 
             if self.is_bouncy(number):
                 bouncies+= 1
-
+            print (number, 100*bouncies/number, self.is_bouncy(number))
+        
         return number
 
 
