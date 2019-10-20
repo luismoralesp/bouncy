@@ -1,0 +1,23 @@
+# Bouncy
+
+Install
+------------
+
+#. Just need to clone from git repository.
+
+´´´
+    $ git clone https://github.com/luismoralesp/bouncy.git
+´´´
+
+
+Run
+------------
+
+#. Just run it using following commands.
+
+´´´
+    $ cd bouncy/
+    $ python main.py
+´´´
+
+
