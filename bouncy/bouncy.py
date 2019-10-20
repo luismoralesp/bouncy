@@ -45,7 +45,6 @@ class Bouncy:
             number+= 1 
             if self.is_bouncy(number):
                 bouncies+= 1
-            print (number, 100*bouncies/number, self.is_bouncy(number))
         
         return number
 
